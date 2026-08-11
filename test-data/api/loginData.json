@@ -1,0 +1,13 @@
+{
+  "validLogin": {
+    "email": "eve.holt@reqres.in",
+    "password": "cityslicka"
+  },
+  "missingPassword": {
+    "email": "eve.holt@reqres.in"
+  },
+  "invalidEmail": {
+    "email": "invalid@test.com",
+    "password": "cityslicka"
+  }
+}

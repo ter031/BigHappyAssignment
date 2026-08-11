@@ -1,0 +1,96 @@
+{
+  "type": "object",
+  "required": ["data", "support", "_meta"],
+  "properties": {
+    "data": {
+      "type": "object",
+      "required": [
+        "id",
+        "email",
+        "first_name",
+        "last_name",
+        "avatar"
+      ],
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "email": {
+          "type": "string"
+        },
+        "first_name": {
+          "type": "string"
+        },
+        "last_name": {
+          "type": "string"
+        },
+        "avatar": {
+          "type": "string"
+        }
+      }
+    },
+    "support": {
+      "type": "object",
+      "required": ["url", "text"],
+      "properties": {
+        "url": {
+          "type": "string"
+        },
+        "text": {
+          "type": "string"
+        }
+      }
+    },
+    "_meta": {
+      "type": "object",
+      "required": [
+        "powered_by",
+        "docs_url",
+        "upgrade_url",
+        "example_url",
+        "variant",
+        "message",
+        "cta",
+        "context"
+      ],
+      "properties": {
+        "powered_by": {
+          "type": "string"
+        },
+        "docs_url": {
+          "type": "string"
+        },
+        "upgrade_url": {
+          "type": "string"
+        },
+        "example_url": {
+          "type": "string"
+        },
+        "variant": {
+          "type": "string"
+        },
+        "message": {
+          "type": "string"
+        },
+        "context": {
+          "type": "string"
+        },
+        "cta": {
+          "type": "object",
+          "required": [
+            "label",
+            "url"
+          ],
+          "properties": {
+            "label": {
+              "type": "string"
+            },
+            "url": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}
