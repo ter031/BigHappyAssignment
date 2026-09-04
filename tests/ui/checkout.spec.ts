@@ -2,6 +2,7 @@ import { test } from '../../fixtures/baseTest';
 
 import loginData from '../../test-data/ui/loginData.json';
 
+// test comment
 test.describe('SauceDemo Checkout', () => {
 
     test('User should complete checkout successfully', async ({
